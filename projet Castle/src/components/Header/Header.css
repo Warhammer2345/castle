@@ -1,6 +1,9 @@
  /* src/components/Header/Header.css */
+ .Nav{
+  background-color: #4a69bd;
+ }
  i.Nav {
-    background-color: #fff;
+    background-color: #60a3bc;
     border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
     position: fixed;
     top: 0;

@@ -3,9 +3,13 @@
     border-radius: 3px;
     border: 1px solid #e6e6e6;
     background-color: #fff;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    margin-top: 30px;
     margin-left : 20%;
     margin-right: 20%;
+  }
+  .Post-Header{
+    background-color: #c44569;
   }
   .Post-user {
     display: flex;

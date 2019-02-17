@@ -7,8 +7,9 @@
         const avatar = this.props.avatar;
         const image = this.props.image;
         const caption = this.props.caption;
+        const link=this.props.link;
       return <article className="Post" ref="Post">
-          <header>
+          <header className="Post-Header">
             <div className="Post-user">
               <div className="Post-user-avatar">
                 <img src={avatar} alt={nickname} />
@@ -19,12 +20,14 @@
             </div>
           </header>
           <div className="Post-image">
-            <div className="Post-image-bg">
-              <img alt="{caption}" src={image} />
-            </div>
+            <a href={link}>
+              <div className="Post-image-bg">
+                <img alt="{caption}" src={image} />
+              </div>
+            </a>
           </div>
           <div className="Post-caption">
-            <strong>{nickname}</strong> {caption}
+            <strong>{nickname} </strong><br/><strong>{caption} €</strong>
           </div>
         </article>;
       }
