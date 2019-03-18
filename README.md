@@ -1,5 +1,7 @@
-# Castle
-
+﻿# Castle
+J'ai décidé pour se projet de séparer la partie REST de la partie nodeJS. 
+En effet, le serveur Relais&Chateaux ne fonctionnant pas parfaitement dans 100% des cas, cela permet de pouvoir utiliser la partie REST sans prendre le risque que cela ne fonctionne pas.
+> The must-watch Denzel's movies
 > Sleep well with Relais & Châteaux
 
 ![castle](https://media.relaischateaux.com/public/hash/919a5432f068d38d0b14b87e52fc27ae66c84376)
