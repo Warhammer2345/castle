@@ -1,6 +1,6 @@
 ﻿# Castle
-J'ai décidé pour se projet de séparer la partie REST de la partie nodeJS. 
-En effet, le serveur Relais&Chateaux ne fonctionnant pas parfaitement dans 100% des cas, cela permet de pouvoir utiliser la partie REST sans prendre le risque que cela ne fonctionne pas.
+J'ai décidé pour se projet de séparer la partie React de la partie nodeJS. 
+En effet, le serveur Relais&Chateaux ne fonctionnant pas parfaitement dans 100% des cas (surtout le week-end avant de rendre), cela permet de pouvoir utiliser la partie React sans prendre le risque que cela ne fonctionne pas.
 > The must-watch Denzel's movies
 > Sleep well with Relais & Châteaux
 
